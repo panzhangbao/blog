@@ -1,0 +1,5 @@
+import{_ as e,o as a,c as d,d as n}from"./app-JQ9X4zlU.js";const i={},r=n(`<h3 id="第七十二条" tabindex="-1"><a class="header-anchor" href="#第七十二条" aria-hidden="true">#</a> 第七十二条</h3><p>自然人因个人或者家庭事务处理个人信息的，不适用本法。</p><p>法律对各级人民政府及其有关部门组织实施的统计、档案管理活动中的个人信息处理有规定的，适用其规定。</p><h3 id="第七十三条" tabindex="-1"><a class="header-anchor" href="#第七十三条" aria-hidden="true">#</a> 第七十三条</h3><p>本法下列用语的含义：</p><div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>（一）个人信息处理者，是指在个人信息处理活动中自主决定处理目的、处理方式的组织、个人。
+（二）自动化决策，是指通过计算机程序自动分析、评估个人的行为习惯、兴趣爱好或者经济、健康、信用状况等，并进行决策的活动。
+（三）去标识化，是指个人信息经过处理，使其在不借助额外信息的情况下无法识别特定自然人的过程。
+（四）匿名化，是指个人信息经过处理无法识别特定自然人且不能复原的过程。
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="第七十四条" tabindex="-1"><a class="header-anchor" href="#第七十四条" aria-hidden="true">#</a> 第七十四条</h3><p>本法自2021年11月1日起施行。</p>`,8),s=[r];function t(c,l){return a(),d("div",null,s)}const o=e(i,[["render",t],["__file","dibazhang：fuze.html.vue"]]);export{o as default};

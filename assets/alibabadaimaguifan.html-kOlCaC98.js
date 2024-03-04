@@ -1,0 +1,1 @@
+import{_ as a,o as e,c as s,a as t}from"./app-JQ9X4zlU.js";const c={},n=t("p",null,"https://prod-read.oss-cn-shanghai.aliyuncs.com/pdf/Java开发手册（嵩山版）.pdf",-1),o=[n];function _(i,l){return e(),s("div",null,o)}const d=a(c,[["render",_],["__file","alibabadaimaguifan.html.vue"]]);export{d as default};

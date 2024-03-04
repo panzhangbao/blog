@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-5d71d4d9","path":"/categories/zaichuntianzoujinguoyuan/2/","title":"","lang":"zh-CN","frontmatter":{"layout":"Categories"},"headers":[],"git":{},"filePathRelative":null}');export{t as data};
