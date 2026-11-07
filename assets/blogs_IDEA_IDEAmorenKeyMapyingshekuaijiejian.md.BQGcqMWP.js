@@ -1,0 +1,119 @@
+import{_ as n,o as a,c as p,a2 as l}from"./chunks/framework.EUByU7Iq.js";const d=JSON.parse('{"title":"IDEA 默认 KeyMap 映射快捷键","description":"","frontmatter":{"title":"IDEA 默认 KeyMap 映射快捷键","date":"2020-10-20T00:00:00.000Z","categories":["Java"],"tags":["Java"]},"headers":[],"relativePath":"blogs/IDEA/IDEAmorenKeyMapyingshekuaijiejian.md","filePath":"blogs/IDEA/IDEA默认KeyMap映射快捷键.md"}'),e={name:"blogs/IDEA/IDEAmorenKeyMapyingshekuaijiejian.md"};function i(r,s,t,c,b,u){return a(),p("div",null,[...s[0]||(s[0]=[l(`<h3 id="编辑" tabindex="-1">编辑 <a class="header-anchor" href="#编辑" aria-label="Permalink to &quot;编辑&quot;">​</a></h3><div class="language- vp-adaptive-theme line-numbers-mode"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>快捷键                  描述</span></span>
+<span class="line"><span>Ctrl + 空格             基础代码补全（任意类、方法、变量的名字）</span></span>
+<span class="line"><span>Ctrl + Shift + 空格     智能代码补全（过滤期望类型的方法和变量列表）</span></span>
+<span class="line"><span>Ctrl + Shift + 回车     补全声明</span></span>
+<span class="line"><span>Ctrl + P                参数信息（函数调用的参数）</span></span>
+<span class="line"><span>Ctrl + Q                快速文档参阅</span></span>
+<span class="line"><span>Shift + F1              外部文档</span></span>
+<span class="line"><span>Ctrl + 鼠标于代码上移动  简略信息</span></span>
+<span class="line"><span>Ctrl + F1               显示当前警告或异常气球的描述</span></span>
+<span class="line"><span>Alt + Insert            生成代码（Getter、Setter、构造函数、hashCode/equals、toString）</span></span>
+<span class="line"><span>Ctrl + O                覆盖方法</span></span>
+<span class="line"><span>Ctrl + I                实现方法</span></span>
+<span class="line"><span>Ctrl + Alt + T          使用某种结构包裹（if…else、try…catch、for、synchronized等）</span></span>
+<span class="line"><span>Ctrl + /                使用行式注释将某行代码注释/取消注释</span></span>
+<span class="line"><span>Ctrl + Shift + /        使用块状注释将某段代码注释/取消注释</span></span>
+<span class="line"><span>Ctrl + W                相继增量地选择代码块</span></span>
+<span class="line"><span>Ctrl + Shift + W        相继减量地选择代码块</span></span>
+<span class="line"><span>Alt + Q                 上下文信息（在当前方法/类的声明不可见时可以使用它）</span></span>
+<span class="line"><span>Alt + 回车              显示意图动作或快速修复选项</span></span>
+<span class="line"><span>Ctrl + Alt + L          重新格式化代码</span></span>
+<span class="line"><span>Ctrl + Alt + O          整理import</span></span>
+<span class="line"><span>Ctrl + Alt + I          代码行自动缩进</span></span>
+<span class="line"><span>Tab / Shift + Tab       缩进/反缩进代码行</span></span>
+<span class="line"><span>Ctrl + X、Shift + Delete将当前行或已选择的代码块剪切至粘贴板</span></span>
+<span class="line"><span>Ctrl + C、Ctrl + Insert 将当前行或已选择的代码块复制到粘贴板</span></span>
+<span class="line"><span>Ctrl + V、Shift + Insert从粘贴板粘贴</span></span>
+<span class="line"><span>Ctrl + Shift + V        从粘贴缓冲区粘贴</span></span>
+<span class="line"><span>Ctrl + D                重复一份当前行或已选择的代码</span></span>
+<span class="line"><span>Ctrl + Y                删除当前行并保持光标位置不变</span></span>
+<span class="line"><span>Ctrl + Shift + J        智能行合并</span></span>
+<span class="line"><span>Ctrl + 回车             智能行分割</span></span>
+<span class="line"><span>Shift + 回车            新起一行</span></span>
+<span class="line"><span>Ctrl + Shift + U        切换光标当前位置或已选择代码块字母的大小写</span></span>
+<span class="line"><span>Ctrl + Shift + ]/[      选择至代码块结尾/开头</span></span>
+<span class="line"><span>Ctrl + Delete/退格      删除至单词结尾/开头</span></span>
+<span class="line"><span>Ctrl + 小键盘+/-        展开/折叠代码块</span></span>
+<span class="line"><span>Ctrl + Shift +          小键盘+ 展开全部</span></span>
+<span class="line"><span>Ctrl + Shift +          小键盘- 折叠全部</span></span>
+<span class="line"><span>Ctrl + F4               关闭当前编辑器标签页</span></span></code></pre><div class="line-numbers-wrapper" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br></div></div><h3 id="查找使用" tabindex="-1">查找使用 <a class="header-anchor" href="#查找使用" aria-label="Permalink to &quot;查找使用&quot;">​</a></h3><div class="language- vp-adaptive-theme line-numbers-mode"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>快捷键                  描述</span></span>
+<span class="line"><span>Alt + F7 / Ctrl + F7    查找使用/查找当前文件中的使用</span></span>
+<span class="line"><span>Ctrl + Shift + F7       高亮显示当前文件中的使用</span></span>
+<span class="line"><span>Ctrl + Alt + F7         显示使用</span></span></code></pre><div class="line-numbers-wrapper" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><h3 id="导航" tabindex="-1">导航 <a class="header-anchor" href="#导航" aria-label="Permalink to &quot;导航&quot;">​</a></h3><div class="language- vp-adaptive-theme line-numbers-mode"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>快捷键                  描述</span></span>
+<span class="line"><span>Ctrl + N 跳转到类</span></span>
+<span class="line"><span>Ctrl + Shift + N        跳转到文件</span></span>
+<span class="line"><span>Ctrl + Alt + Shift + N  跳转到标识符</span></span>
+<span class="line"><span>Alt + →/←               跳转到上/下一个编辑器标签页</span></span>
+<span class="line"><span>F12                     回到上一个工具窗口</span></span>
+<span class="line"><span>Esc                     从工具窗口跳转到编辑器</span></span>
+<span class="line"><span>Shift + Esc             隐藏当前活动或最后一个活动窗口</span></span>
+<span class="line"><span>Ctrl + Shift + 退格     跳转到最后一次编辑位置</span></span>
+<span class="line"><span>Alt + F1                在任意视图上选择本文件或标识符</span></span>
+<span class="line"><span>Ctrl + B                跳转到类型定义</span></span>
+<span class="line"><span>Ctrl + U                跳转到父级方法/父类</span></span>
+<span class="line"><span>Alt + ↑/↓               跳转到上/下一个方法</span></span>
+<span class="line"><span>Ctrl + ]/[              移动到代码块的结束/开始</span></span>
+<span class="line"><span>Ctrl + F12              文件结构弹出框</span></span>
+<span class="line"><span>Ctrl + H                类型结构</span></span>
+<span class="line"><span>Ctrl + Shift + H        方法结构</span></span>
+<span class="line"><span>F2 / Shift + F2         上一个/下一个高亮异常</span></span>
+<span class="line"><span>F4 / Ctrl + Enter       编辑源码/查看源码</span></span>
+<span class="line"><span>Alt + Home              显示导航栏</span></span>
+<span class="line"><span>F11                     切换书签</span></span>
+<span class="line"><span>Ctrl + F11              切换书签并添加助记符</span></span>
+<span class="line"><span>Ctrl + #[0-9]           前往数字助记符标记的书签</span></span>
+<span class="line"><span>Shift + F11             显示书签</span></span></code></pre><div class="line-numbers-wrapper" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br></div></div><h3 id="查找-替换" tabindex="-1">查找/替换 <a class="header-anchor" href="#查找-替换" aria-label="Permalink to &quot;查找/替换&quot;">​</a></h3><div class="language- vp-adaptive-theme line-numbers-mode"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>快捷键                  描述</span></span>
+<span class="line"><span>双击Shift               随心搜</span></span>
+<span class="line"><span>Ctrl + F                查找</span></span>
+<span class="line"><span>F3 / Shift + F3         查找下一个/查找上一个</span></span>
+<span class="line"><span>Ctrl + R                替换</span></span>
+<span class="line"><span>Ctrl + Shift + F        在目录中查找</span></span>
+<span class="line"><span>Ctrl + Shift + R        在目录中替换</span></span>
+<span class="line"><span>Ctrl + Shift + S        结构型查找（仅Ultimate版支持）</span></span>
+<span class="line"><span>Ctrl + Shift + M        结构型替换（仅Ultimate版支持）</span></span></code></pre><div class="line-numbers-wrapper" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br></div></div><h3 id="live模板" tabindex="-1">Live模板 <a class="header-anchor" href="#live模板" aria-label="Permalink to &quot;Live模板&quot;">​</a></h3><div class="language- vp-adaptive-theme line-numbers-mode"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>快捷键                  描述</span></span>
+<span class="line"><span>Ctrl + Alt + J          使用Live模板包裹</span></span>
+<span class="line"><span>Ctrl + J                插入Live模板</span></span>
+<span class="line"><span>-iter                   SDK1.5风格的迭代器</span></span>
+<span class="line"><span>-inst                   使用instanceOf检查对象类型并将其强转为对应类型</span></span>
+<span class="line"><span>-itco                   迭代java.util.Collection元素</span></span>
+<span class="line"><span>-itit                   迭代java.util.Iterator元素</span></span>
+<span class="line"><span>-itli                   迭代java.util.List元素</span></span>
+<span class="line"><span>-psf                    public static final</span></span>
+<span class="line"><span>-thr                    throw new</span></span></code></pre><div class="line-numbers-wrapper" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div><h3 id="重构" tabindex="-1">重构 <a class="header-anchor" href="#重构" aria-label="Permalink to &quot;重构&quot;">​</a></h3><div class="language- vp-adaptive-theme line-numbers-mode"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>快捷键                  描述</span></span>
+<span class="line"><span>F5                      复制</span></span>
+<span class="line"><span>F6                      移动</span></span>
+<span class="line"><span>Alt + Delete            安全删除</span></span>
+<span class="line"><span>Shift + F6              重命名</span></span>
+<span class="line"><span>Ctrl + F6               修改标识符</span></span>
+<span class="line"><span>Ctrl + Alt + N          内联</span></span>
+<span class="line"><span>Ctrl + Alt + M          提取方法</span></span>
+<span class="line"><span>Ctrl + Alt + V          提取变量</span></span>
+<span class="line"><span>Ctrl + Alt + F          提取字段</span></span>
+<span class="line"><span>Ctrl + Alt + C          提取常量</span></span>
+<span class="line"><span>Ctrl + Alt + P          提取参数</span></span></code></pre><div class="line-numbers-wrapper" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br></div></div><h3 id="调试" tabindex="-1">调试 <a class="header-anchor" href="#调试" aria-label="Permalink to &quot;调试&quot;">​</a></h3><div class="language- vp-adaptive-theme line-numbers-mode"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>快捷键                  描述</span></span>
+<span class="line"><span>F8/F7                   步进/跳入</span></span>
+<span class="line"><span>Shift + F7 / Shift + F8 智能跳入/智能跳出</span></span>
+<span class="line"><span>Alt + F9                运行至光标处</span></span>
+<span class="line"><span>Alt + F8                表达式求值</span></span>
+<span class="line"><span>F9                      恢复程序执行</span></span>
+<span class="line"><span>Ctrl + F8               切换断点状态</span></span>
+<span class="line"><span>Ctrl + Shift + F8       显示所有断点</span></span></code></pre><div class="line-numbers-wrapper" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><h3 id="编译和运行" tabindex="-1">编译和运行 <a class="header-anchor" href="#编译和运行" aria-label="Permalink to &quot;编译和运行&quot;">​</a></h3><div class="language- vp-adaptive-theme line-numbers-mode"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>快捷键                  描述</span></span>
+<span class="line"><span>Ctrl + F9               构建项目（编译被修改的代码和依赖）</span></span>
+<span class="line"><span>Ctrl + Shift + F9       编译选择的文件、包或模块</span></span>
+<span class="line"><span>Alt + Shift + F10/F9    选择配置并执行/调试</span></span>
+<span class="line"><span>Shift + F10/F9          执行/调试</span></span>
+<span class="line"><span>Ctrl + Shift + F10      在编辑器中执行上下文配置</span></span></code></pre><div class="line-numbers-wrapper" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><h3 id="版本控制系统-本地历史记录" tabindex="-1">版本控制系统/本地历史记录 <a class="header-anchor" href="#版本控制系统-本地历史记录" aria-label="Permalink to &quot;版本控制系统/本地历史记录&quot;">​</a></h3><div class="language- vp-adaptive-theme line-numbers-mode"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>快捷键                  描述</span></span>
+<span class="line"><span>Ctrl + K / Ctrl + T     提交项目/更新项目</span></span>
+<span class="line"><span>Alt + Shift + C         查看近期更改</span></span>
+<span class="line"><span>Alt + 反引号（\`）        版本控制系统快速弹出框</span></span></code></pre><div class="line-numbers-wrapper" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><h3 id="通用" tabindex="-1">通用 <a class="header-anchor" href="#通用" aria-label="Permalink to &quot;通用&quot;">​</a></h3><div class="language- vp-adaptive-theme line-numbers-mode"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>快捷键                  描述</span></span>
+<span class="line"><span>Alt + #[0-9]            打开对应的工具窗口</span></span>
+<span class="line"><span>Ctrl + S                保存所有</span></span>
+<span class="line"><span>Ctrl + Alt + Y          同步</span></span>
+<span class="line"><span>Ctrl + Shift + F12      编辑器最大化切换</span></span>
+<span class="line"><span>Alt + Shift + F         添加至收藏夹</span></span>
+<span class="line"><span>Alt + Shift + I         使用当前配置检查当前文件</span></span>
+<span class="line"><span>Ctrl + 反引号（\`）       快速切换当前元数据</span></span>
+<span class="line"><span>Ctrl + Alt + S          打开设置对话框</span></span>
+<span class="line"><span>Ctrl + Alt + Shift + S  打开项目结构对话框</span></span>
+<span class="line"><span>Ctrl + Shift + A        查找动作</span></span>
+<span class="line"><span>Ctrl + Tab              在标签页和工具窗之间切换</span></span></code></pre><div class="line-numbers-wrapper" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br></div></div>`,20)])])}const h=n(e,[["render",i]]);export{d as __pageData,h as default};

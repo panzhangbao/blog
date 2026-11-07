@@ -1,0 +1,75 @@
+import{_ as n,o as a,c as p,a2 as e}from"./chunks/framework.EUByU7Iq.js";const m=JSON.parse('{"title":"Vue 环境搭建","description":"","frontmatter":{"title":"Vue 环境搭建","date":"2020-10-02T00:00:00.000Z","categories":["Vue"],"tags":["Vue"]},"headers":[],"relativePath":"blogs/Vue/Vue huanjingdajian.md","filePath":"blogs/Vue/Vue 环境搭建.md"}'),l={name:"blogs/Vue/Vue huanjingdajian.md"};function i(r,s,c,b,u,t){return a(),p("div",null,[...s[0]||(s[0]=[e(`<h3 id="windows-下安装-node-js" tabindex="-1">Windows 下安装 Node.js <a class="header-anchor" href="#windows-下安装-node-js" aria-label="Permalink to &quot;Windows 下安装 Node.js&quot;">​</a></h3><div class="language- vp-adaptive-theme line-numbers-mode"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span># 1. 下载 Node.js</span></span>
+<span class="line"><span>curl https://nodejs.org/dist/v12.18.3/node-v12.18.3-x64.msi</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span># 检查是否安装成功</span></span>
+<span class="line"><span>node -v</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span># npm 清理缓存命令</span></span>
+<span class="line"><span>npm cache clean --force</span></span></code></pre><div class="line-numbers-wrapper" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><h3 id="npm-设置淘宝源" tabindex="-1">npm 设置淘宝源 <a class="header-anchor" href="#npm-设置淘宝源" aria-label="Permalink to &quot;npm 设置淘宝源&quot;">​</a></h3><div class="language- vp-adaptive-theme line-numbers-mode"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span># 查看设置</span></span>
+<span class="line"><span>npm config get registry</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span># 设置taobao源</span></span>
+<span class="line"><span>npm config set registry https://registry.npmmirror.com</span></span></code></pre><div class="line-numbers-wrapper" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><h3 id="vue-安装" tabindex="-1">vue 安装 <a class="header-anchor" href="#vue-安装" aria-label="Permalink to &quot;vue 安装&quot;">​</a></h3><div class="language- vp-adaptive-theme line-numbers-mode"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span># yarn 工具</span></span>
+<span class="line"><span>npm -g install yarn</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span># 安装vue</span></span>
+<span class="line"><span>yarn -g add vue</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span># 安装vue-cli脚手架：</span></span>
+<span class="line"><span>yarn -g add vue-cli</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span># 安装 webpack</span></span>
+<span class="line"><span>yarn -g add webpak</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span># 安装路由</span></span>
+<span class="line"><span>yarn -g add vue-router</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span># VUE状态管理</span></span>
+<span class="line"><span>yarn -g add vuex</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span># mockjs 模拟后端数据结构输出</span></span>
+<span class="line"><span>yarn -g add mockjs</span></span>
+<span class="line"><span># 异步编程框架 axios</span></span>
+<span class="line"><span>yarn -g add axios</span></span>
+<span class="line"><span># mock 可监听 api 请求是否可用，如不可用则返回 mock 测试数据</span></span>
+<span class="line"><span>yarn -g add axios-mock-adapter</span></span></code></pre><div class="line-numbers-wrapper" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br></div></div><h3 id="webpack-项目" tabindex="-1">webpack 项目 <a class="header-anchor" href="#webpack-项目" aria-label="Permalink to &quot;webpack 项目&quot;">​</a></h3><div class="language- vp-adaptive-theme line-numbers-mode"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span># 创建项目 vueTest</span></span>
+<span class="line"><span>vue init webpack vueTest</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span># 安装依赖</span></span>
+<span class="line"><span>cd vueTest</span></span>
+<span class="line"><span>npm install</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span># 启动项目</span></span>
+<span class="line"><span>npm run dev</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span># 打包</span></span>
+<span class="line"><span>npm run build</span></span></code></pre><div class="line-numbers-wrapper" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br></div></div><h3 id="vue-cli-项目目录解析" tabindex="-1">Vue-cli 项目目录解析 <a class="header-anchor" href="#vue-cli-项目目录解析" aria-label="Permalink to &quot;Vue-cli 项目目录解析&quot;">​</a></h3><div class="language- vp-adaptive-theme line-numbers-mode"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>|-- build                            // 项目构建(webpack)相关代码</span></span>
+<span class="line"><span>|   |-- build.js                     // 生产环境构建代码</span></span>
+<span class="line"><span>|   |-- check-version.js             // 检查node、npm等版本</span></span>
+<span class="line"><span>|   |-- dev-client.js                // 热重载相关</span></span>
+<span class="line"><span>|   |-- dev-server.js                // 构建本地服务器</span></span>
+<span class="line"><span>|   |-- utils.js                     // 构建工具相关</span></span>
+<span class="line"><span>|   |-- webpack.base.conf.js         // webpack基础配置</span></span>
+<span class="line"><span>|   |-- webpack.dev.conf.js          // webpack开发环境配置</span></span>
+<span class="line"><span>|   |-- webpack.prod.conf.js         // webpack生产环境配置</span></span>
+<span class="line"><span>|-- config                           // 项目开发环境配置</span></span>
+<span class="line"><span>|   |-- dev.env.js                   // 开发环境变量</span></span>
+<span class="line"><span>|   |-- index.js                     // 项目一些配置变量</span></span>
+<span class="line"><span>|   |-- prod.env.js                  // 生产环境变量</span></span>
+<span class="line"><span>|   |-- test.env.js                  // 测试环境变量</span></span>
+<span class="line"><span>|-- src                              // 源码目录</span></span>
+<span class="line"><span>|   |-- assets                       // 资源目录 </span></span>
+<span class="line"><span>|   |-- components                   // vue公共组件</span></span>
+<span class="line"><span>|   |-- store                        // vuex的状态管理</span></span>
+<span class="line"><span>|   |-- App.vue                      // 页面入口文件</span></span>
+<span class="line"><span>|   |-- main.js                      // 程序入口文件，加载各种公共组件</span></span>
+<span class="line"><span>|-- static                           // 静态文件，比如一些图片，json数据等</span></span>
+<span class="line"><span>|   |-- data                         // 数据</span></span>
+<span class="line"><span>|-- .babelrc                         // ES6语法编译配置</span></span>
+<span class="line"><span>|-- .editorconfig                    // 定义代码格式</span></span>
+<span class="line"><span>|-- .gitignore                       // git上传需要忽略的文件格式</span></span>
+<span class="line"><span>|   |-- .postcssrc.js                // 通过JS插件装换样式的工具 </span></span>
+<span class="line"><span>|-- README.md                        // 项目说明</span></span>
+<span class="line"><span>|-- favicon.ico </span></span>
+<span class="line"><span>|-- index.html                       // 入口页面</span></span>
+<span class="line"><span>|-- package.json                     // 项目基本信息</span></span></code></pre><div class="line-numbers-wrapper" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br></div></div>`,10)])])}const o=n(l,[["render",i]]);export{m as __pageData,o as default};
